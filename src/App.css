@@ -1,0 +1,74 @@
+.App {
+  background-color: rgb(19, 19, 19);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 50px;
+  margin-top: 40px;
+  color: rgb(12, 234, 234);
+}
+
+.login-but {
+  height: 30px;
+  width: 70px;
+  color: #fff;
+}
+
+input[type="text"] {
+  align-items: center;
+  width: 400px;
+  height: 45px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-left: 200px;
+}
+
+.Search-placeholder {
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.filter {
+  margin-right: 400px;
+  margin-top: 100px;
+  font-size: 20px;
+  color: #fff;
+}
+.filter-box {
+  height: 30px;
+  width: 50px;
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.show-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.show-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.show-card {
+  width: 20%;
+  margin: 1%;
+  text-align: center;
+}
+
+.show-img {
+  width: 100%;
+}
+
+.show-names {
+  color: white;
+  font-size: 20px;
+}
